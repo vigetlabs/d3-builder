@@ -1,10 +1,10 @@
-# D3ify
+# D3 Builder
 
 A work in progress, but you can currently use it like:
 
 ```javascript
-var fs    = require('fs');
-var d3ify = require('d3ify');
+var fs = require('fs');
+var d3 = require('d3-builder');
 
-d3ify(['svg/arc', 'scale/linear']).pipe(fs.createWriteStream('./d3.custom.js'));
+d3(['svg/arc', 'scale/linear']).pipe(fs.createWriteStream('./d3.custom.js'));
 ```
