@@ -1,8 +1,12 @@
 {
   "name": "d3ify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generates custom builds of D3",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vigetlabs/d3ify"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
