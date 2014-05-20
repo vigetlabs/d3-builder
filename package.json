@@ -1,0 +1,15 @@
+{
+  "name": "d3-builder",
+  "version": "0.0.0",
+  "description": "Generates custom builds of D3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nate Hunzaker, Viget Labs",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^3.4.8",
+    "smash": "0.0.12"
+  }
+}
