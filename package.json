@@ -1,5 +1,5 @@
 {
-  "name": "d3-builder",
+  "name": "d3ify",
   "version": "0.0.0",
   "description": "Generates custom builds of D3",
   "main": "index.js",
