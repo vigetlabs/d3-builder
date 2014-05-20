@@ -15,4 +15,4 @@ Checkout [the D3 source](https://github.com/mbostock/d3/tree/master/src) for a l
 
 ## Motivation
 
-D3 uses the [smash](https://github.com/mbostock/smash) module system. This package is a thin layer over smash and D3 to (eventually) make it easier to stream custom builds into [[browserify](https://github.com/substack/node-browserify).
+D3 uses the [smash](https://github.com/mbostock/smash) module system. This package is a thin layer over smash and D3 to (eventually) make it easier to stream custom builds into [browserify](https://github.com/substack/node-browserify).
