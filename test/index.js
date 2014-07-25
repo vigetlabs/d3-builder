@@ -3,13 +3,10 @@ var d3ify      = require('../index');
 var out        = require('fs').createWriteStream('./test/out.js');
 var path       = require('path');
 
-browserify({
-	entries: ['./test/sample.js']
-})
+browserify()
 .require(d3ify('svg/arc'), {
-	basedir: '.',
-	entry: false,
-	expose: 'foo'
+	expose: 'd3'
 })
-.bundle({ debug: false })
+.add('./test/sample.js')
+.bundle()
 .pipe(out);

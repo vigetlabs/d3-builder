@@ -15,5 +15,8 @@
   "dependencies": {
     "d3": "^3.4.8",
     "smash": "0.0.12"
+  },
+  "devDependencies": {
+    "browserify": "^5.8.0"
   }
 }
