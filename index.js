@@ -8,7 +8,7 @@ module.exports = function() {
 	modules.push('end');
 
 	var resolved = modules.map(function(location) {
-		return path.resolve(__dirname, 'node_modules','d3', 'src', location);
+		return path.resolve(__dirname, '..', 'd3', 'src', location);
 	});
 
 	return smash(resolved);
