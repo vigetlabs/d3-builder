@@ -1,6 +1,6 @@
 {
   "name": "d3-builder",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Generates custom builds of D3",
   "main": "index.js",
   "repository": {
