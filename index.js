@@ -7,8 +7,10 @@ module.exports = function() {
 	modules.unshift('start');
 	modules.push('end');
 
+	var d3Path = path.dirname(require.resolve('d3'));
+
 	var resolved = modules.map(function(location) {
-		return path.resolve(__dirname, '..', 'd3', 'src', location);
+		return path.resolve(d3Path, 'src', location);
 	});
 
 	return smash(resolved);
