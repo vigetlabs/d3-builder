@@ -1,8 +1,10 @@
 # Heads up!
 
+**As of January 4th, 2016, this project is no longer active**.
+
 Since the time of writing `d3-builder`, [D3 has released discrete packages on
 NPM](https://www.npmjs.com/~mbostock). We recommend checking them out before
-digging too much into this project.
+digging too much into this project. 
 
 # D3 Builder
 
